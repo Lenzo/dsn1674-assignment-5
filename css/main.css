@@ -9,6 +9,14 @@ html {
   box-sizing: inherit;
 }
 
+body{
+  margin: 0;
+}
+
+main{
+  margin: .5em;
+}
+
 header{
   font-size:1.5rem;
   text-align: center;
@@ -19,14 +27,15 @@ header{
   margin: 0;
 }
 
-body{
-  margin: 0;
-}
 
 
 ol{
   margin: 0;
   padding: 0;
+}
+
+nav{
+  overflow: hidden;
 }
 
 nav li{
@@ -37,8 +46,22 @@ nav li{
   border: 1px solid #a93f35;
   width: 33.3%;
   margin: 0;
-  padding: .5rem;
   text-align: center;
   color: white;
+}
 
+
+nav a{
+  padding: .5rem;
+  font-size: 120%;
+  background-color: #d05c2e;
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+nav a:hover{
+  background-color: #a93f35;
+  color: white;
+  text-decoration: none;
 }
