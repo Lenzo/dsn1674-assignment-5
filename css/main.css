@@ -13,10 +13,6 @@ body{
   margin: 0;
 }
 
-main{
-  margin: .5em;
-}
-
 header{
   font-size:1.5rem;
   text-align: center;
@@ -27,7 +23,29 @@ header{
   margin: 0;
 }
 
+main{
+  margin: .5em;
+}
 
+figure{
+  margin: 0;
+}
+
+.img-grains{
+  float: left;
+  width: 45%;
+  margin-right: .5em;
+}
+
+.img-cereals {
+  float: right;
+  width: 45%;
+}
+
+.img-quinoa {
+  float: right;
+  width: 45%;
+}
 
 ol{
   margin: 0;
