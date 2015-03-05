@@ -1,8 +1,6 @@
 html {
   font-size: 100%;
   box-sizing: border-box;
-  font-family: sans-serif;
-  font-family: 'Merriweather', serif;
 }
 
 *, *::before, *::after{
@@ -13,6 +11,20 @@ body{
   margin: 0;
 }
 
+main{
+  margin: 0;
+}
+
+
+p{
+  font-family: 'Merriweather', serif;
+  line-height: 1.6em;
+  width: 100%;
+  margin: 10px;
+  margin-bottom: 1em;
+}
+
+
 header{
   font-size:1.5rem;
   text-align: center;
@@ -21,6 +33,26 @@ header{
   background-color: #d05c2e;
   font-style: bold;
   margin: 0;
+  border: 0;
+  padding:0;
+}
+
+div.masthead{
+  padding: 1em;
+}
+
+h1{
+  margin: 0;
+}
+
+.grain-left{
+  float: left;
+  width:10%;
+}
+
+.grain-right{
+    float: right;
+    width: 10%;
 }
 
 main{
@@ -40,12 +72,82 @@ figure{
 .img-cereals {
   float: right;
   width: 45%;
+  clear: both;
+  border: lightgrey solid 1px;
+  margin: 0;
+  margin-bottom: .5em;
 }
 
 .img-quinoa {
   float: right;
   width: 45%;
+  clear: both;
+  border: lightgrey solid 1px;
 }
+
+.img-rice{
+  width: 50%;
+  float:right;
+}
+
+.img-oats{
+  width: 50%;
+  float: left;
+}
+
+
+h2{
+  background-color: #d05c2e;
+  text-align: center;
+  color: white;
+  padding: 1em;
+  margin: 0;
+  clear: both;
+  font-weight: normal;
+  width: 100%;
+}
+
+h3 {
+  text-align: center;
+  color: black;
+  font-family: 'merriweather', serif;
+  font-size: 1.1em;
+  padding: 0em, 2em;
+  font-style: bold;
+  margin-bottom: 1em;
+}
+
+figcaption{
+  background-color: #d05c2e;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 1em;
+  font-style: italic;
+  font-family: 'merriweather', serif;
+}
+
+.img-list{
+  width: 20%;
+  float: left;
+  clear: left;
+  margin-bottom: 1em;
+  margin-right: 1em;
+}
+
+dl{
+  display: inline;
+}
+
+dt{
+  float: left;
+}
+
+dd{
+float: left;
+margin: 0;
+}
+
 
 ol{
   margin: 0;
@@ -68,6 +170,11 @@ nav li{
   color: white;
 }
 
+img {
+  width: 100%;
+  margin: 0em;
+  padding: 0em;
+}
 
 nav a{
   padding: .5rem;
@@ -82,4 +189,15 @@ nav a:hover{
   background-color: #a93f35;
   color: white;
   text-decoration: none;
+}
+
+footer{
+  background-color: #d05c2e;
+  text-align: center;
+  padding: 1.5em;
+  margin: 15em 0em 0em 0em;
+  font-family: 'Merriweather', serif;
+  font-size: .5em;
+  color: white;
+  clear: both;
 }
