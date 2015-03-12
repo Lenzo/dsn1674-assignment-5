@@ -9,6 +9,9 @@ html {
 
 body{
   margin: 0;
+  font-family: 'Merriweather', serif;
+  font-size: 1em;
+  line-height: 1.5em;
 }
 
 main{
@@ -17,16 +20,19 @@ main{
 
 
 p{
-  font-family: 'Merriweather', serif;
-  line-height: 1.6em;
-  width: 100%;
+  
   margin: 10px;
   margin-bottom: 1em;
 }
 
+.p2{
+  clear: left;
+  margin: none;
+}
+
 
 header{
-  font-size:1.5rem;
+  font-size:1.5em;
   text-align: center;
   padding: 1em;
   color: white;
@@ -38,7 +44,7 @@ header{
 }
 
 div.masthead{
-  padding: 1em;
+  padding: 1em .5em 1.5em .5em;
 }
 
 h1{
@@ -47,12 +53,12 @@ h1{
 
 .grain-left{
   float: left;
-  width:10%;
+  width:50px;
 }
 
 .grain-right{
     float: right;
-    width: 10%;
+    width: 50px;
 }
 
 main{
@@ -63,26 +69,34 @@ figure{
   margin: 0;
 }
 
+
 .img-grains{
   float: left;
   width: 45%;
   margin-right: .5em;
 }
 
+.p2-images{
+clear: both;
+}
+
+
 .img-cereals {
   float: right;
-  width: 45%;
-  clear: both;
+  width: 40%;
   border: lightgrey solid 1px;
   margin: 0;
   margin-bottom: .5em;
+  margin-left: .5em;
 }
 
 .img-quinoa {
   float: right;
-  width: 45%;
-  clear: both;
+  width: 40%;
+  clear: right;
   border: lightgrey solid 1px;
+  margin-bottom: .5em;
+
 }
 
 .img-rice{
@@ -152,19 +166,22 @@ margin: 0;
 ol{
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 nav{
   overflow: hidden;
 }
 
+
+
 nav li{
-  list-style: none;
+  list-style-type: none;
   background-color: #d05c2e;
   border: 1px solid #a93f35;
   float: left;
   border: 1px solid #a93f35;
-  width: 33.3%;
+  width: calc(100% / 3);
   margin: 0;
   text-align: center;
   color: white;
