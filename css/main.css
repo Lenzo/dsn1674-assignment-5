@@ -14,10 +14,54 @@ body{
   line-height: 1.5em;
 }
 
+
+nav{
+  overflow: hidden;
+  padding-bottom: .75em;
+}
+
+nav li{
+  list-style-type: none;
+  background-color: #d05c2e;
+  border: 1px solid #a93f35;
+  float: left;
+  border: 1px solid #a93f35;
+  width: calc(100% / 3);
+  margin: 0;
+  text-align: center;
+  color: white;
+}
+
+nav a{
+  padding: .5rem;
+  font-size: 120%;
+  background-color: #d05c2e;
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+nav a:hover{
+  background-color: #a93f35;
+  color: white;
+  text-decoration: none;
+}
+
+ol{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
 main{
   margin: 0;
 }
 
+img {
+  width: 100%;
+  margin: 0em;
+  padding: 0em;
+}
 
 p{
   margin: 10px;
@@ -97,16 +141,18 @@ margin: none;
 
 .img-rice{
   width: 50%;
-  float:right;
+  float:left;
 }
 
 .img-oats{
   width: 50%;
-  float: left;
+  float: right;
 }
 
 .famous-cereals{
   margin-bottom: 3em;
+  border-top: 1px solid #a93f35;
+  border-bottom: 1px solid #a93f35;
 }
 
 .famous-cereals:before,
@@ -120,32 +166,37 @@ display: table;
 }
 
 h2{
-  background-color: #d05c2e;
+  background-color: #dc8252;
   text-align: center;
+  font-weight: bold;
   color: white;
   padding: 1em;
   margin: 0;
   clear: both;
-  font-weight: normal;
   width: 100%;
+}
+
+.famous-legumes{
+  margin: 1em;
 }
 
 h3 {
   text-align: center;
   color: black;
   font-family: 'merriweather', serif;
-  font-size: 1.1em;
+  font-size: 1.5em;
   padding: 0em, 2em;
   font-style: bold;
   margin-bottom: 1em;
 }
 
 figure{
-  background: #d05c2e;
+  background: #dc8252;
+  border: 0;
 }
 
 figcaption{
-  background-color: #d05c2e;
+  background-color: #dc8252;
   color: white;
   text-align: center;
   margin: 0;
@@ -156,6 +207,7 @@ figcaption{
 }
 
 .img-list{
+  border: lightgrey solid 1px;
   width: 20%;
   float: left;
   clear: left;
@@ -165,10 +217,13 @@ figcaption{
 
 dl{
   display: inline;
+  font-style: italic;
 }
 
 dt{
   float: left;
+  font-weight: bold;
+
 }
 
 dd{
@@ -177,58 +232,14 @@ margin: 0;
 }
 
 
-ol{
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-
-nav{
-  overflow: hidden;
-}
-
-
-
-nav li{
-  list-style-type: none;
-  background-color: #d05c2e;
-  border: 1px solid #a93f35;
-  float: left;
-  border: 1px solid #a93f35;
-  width: calc(100% / 3);
-  margin: 0;
-  text-align: center;
-  color: white;
-}
-
-img {
-  width: 100%;
-  margin: 0em;
-  padding: 0em;
-}
-
-nav a{
-  padding: .5rem;
-  font-size: 120%;
-  background-color: #d05c2e;
-  color: white;
-  text-decoration: none;
-  display: block;
-}
-
-nav a:hover{
-  background-color: #a93f35;
-  color: white;
-  text-decoration: none;
-}
-
 footer{
   background-color: #d05c2e;
   text-align: center;
   padding: 1.5em;
   margin: 15em 0em 0em 0em;
   font-family: 'Merriweather', serif;
-  font-size: .5em;
-  color: white;
+  font-size: .7em;
+  font-weight: bold;
+  color: #e3a998;
   clear: both;
 }
